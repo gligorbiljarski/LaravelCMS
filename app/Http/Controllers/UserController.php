@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use Illuminate\Validation\Validator;
+use Illuminate\Support\Facades\Validator;
 
 
 
@@ -55,14 +55,17 @@ class UserController extends Controller
         $email = $request->get('email');
         $password = bcrypt($request->get('password'));
 
+
+
+
         $validator = Validator::make($request->all(), [
             'name' => 'required|max:255',
             'email' => 'required',
-            'password' => 'password',
+            'password' => 'required',
         ]);
 
         if ($validator->fails()) {
-            return redirect('users/create')
+            return redirect('dashboard/users/create')
                 ->withErrors($validator)
                 ->withInput();
         }

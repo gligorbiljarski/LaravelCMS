@@ -9,20 +9,35 @@
 
                     <div class="form-roup mt-2">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="YourName" name="name">
+                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" aria-describedby="YourName" name="name">
                     </div>
+                    @error('name')
+                    <span>
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
 
                     <div class="form-group mt-2">
                         <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" aria-describedby="emailHelp" name="email">
                     </div>
+                    @error('email')
+                    <span>
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
 
 
 
-                    <div class="form-group mt-2">
+                    <div class="form-roup mt-2">
                         <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" name="password">
+                        <input type="text" class="form-control @error('password') is-invalid @enderror" id="password" aria-describedby="passwordHelp" name="password">
                     </div>
+                    @error('password')
+                    <span>
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
 
                     <button type="submit" class="btn btn-primary mt-xl-4">Submit</button>
                 </form>
