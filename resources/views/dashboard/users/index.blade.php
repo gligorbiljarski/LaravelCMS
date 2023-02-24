@@ -14,6 +14,7 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Role</th>
                     <th>Created At</th>
                     <th>Action</th>
                 </tr>
@@ -24,7 +25,7 @@
                         <td><a href="{{ route('users.show', $user->id) }}">{{ $user->id }}</a></td>
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
-                        <td>{{ $user->created_at->diffForHumans() }}</td>
+                        <td>{{ $user->password }}</td>
                         <td><a href="{{ route('users.edit', $user->id) }}" class="btn btn-warning">Edit</a></td>
                     </tr>
                 @endforeach

@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Validator;
+use App\Models\Role;
 
 
 
@@ -37,7 +38,10 @@ class UserController extends Controller
     public function create()
 
     {
-        return view('dashboard.users.create');
+        $roles = Role::all();
+        $data = ['roles' => $roles];
+
+        return view('dashboard.users.create')->with($data);
 
     }
 

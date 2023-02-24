@@ -17,6 +17,8 @@
                                     </span>
                     @enderror
 
+
+
                     <div class="form-group mt-2">
                         <label for="email">Email address</label>
                         <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" aria-describedby="emailHelp" name="email">
@@ -29,7 +31,7 @@
 
 
 
-                    <div class="form-roup mt-2">
+                    <div class="form-group mt-2">
                         <label for="password">Password</label>
                         <input type="text" class="form-control @error('password') is-invalid @enderror" id="password" aria-describedby="passwordHelp" name="password">
                     </div>
@@ -38,6 +40,17 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                     @enderror
+
+                    <div class="form-group mt-2">
+                        <label for="role">Roles</label>
+                        <select name="role_id" class="form-control" id="role">
+                            @foreach($roles as $role)
+                                <option value="{{$role->id}}">{{$role->name}} </option>
+                            @endforeach
+
+                        </select>
+
+                    </div>
 
                     <button type="submit" class="btn btn-primary mt-xl-4">Submit</button>
                 </form>
