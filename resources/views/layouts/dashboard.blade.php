@@ -73,64 +73,30 @@
                         <ul class="nav flex-column collapse-group collapse d-flex">
                             <li class="nav-item sidebar-title text-truncate opacity-50 small">
                                 <i class="bi bi-three-dots"></i>
-                                <span>Main</span>
+                                <span>Главни Уредувања</span>
                             </li>
                             <li class="nav-item">
                                 <a href="index.html" class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          sell
-                          </span>
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-gear-wide-connected"></i>
                       </span>
                                     <!--Sidebar nav text-->
-                                    <span class="sidebar-text">E-commerce</span>
+                                    <span class="sidebar-text">Подесувања</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="index-analytics.html" class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          monitoring
-                          </span>
-                      </span>
+                                    <i class="fs-2 text-primary d-block mb-2 bi bi-person-fill"></i>
+
                                     <!--Sidebar nav text-->
-                                    <span class="sidebar-text">Analytics</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="index-project-management.html" class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          folder
-                          </span>
-                      </span>
-                                    <!--Sidebar nav text-->
-                                    <span class="sidebar-text">Management <span class="badge rounded-pill bg-success ms-3">New</span></span>
+                                    <span class="sidebar-text">Корисници</span>
                                 </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a href="widgets.html"
-                                   class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          widgets
-                          </span>
-                      </span>
-                                    <span class="sidebar-text">Widgets <span class="badge rounded-pill bg-info ms-3">60+</span></span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-bs-toggle="collapse"
-                                   class="nav-link d-flex align-items-center text-truncate "
-                                   aria-expanded="false" href="#ui-pages">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          sticky_note_2
-                          </span>
-                      </span>
+
+
                                     <!--Sidebar nav text-->
-                                    <span class="sidebar-text">Pages</span>
+
                                 </a>
                                 <ul id="ui-pages" class="sidebar-dropdown list-unstyled collapse datatabless_collapse">
                                     <li class="sidebar-item">
@@ -212,73 +178,67 @@
 
                             <li class="nav-item mt-2 sidebar-title text-truncate small opacity-50">
                                 <i class="bi bi-three-dots"></i>
-                                <span>Apps</span>
+                                <span>Уредувања на веб страна</span>
                             </li>
-                            <li class="nav-item">
-                                <a href="app-inbox.html"
-                                   class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          all_inbox
-                          </span>
-                      </span>
-                                    <span class="sidebar-text">Inbox <span class="badge rounded-pill bg-primary small lh-1 ms-3">1
-                          new</span></span>
-                                </a>
-                            </li>
+
                             <li class="nav-item">
                                 <a href="app-chat.html"
                                    class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          chat
-                          </span>
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-images"></i>
                       </span>
-                                    <span class="sidebar-text">Chat</span>
+                                    <span class="sidebar-text">Слајдер</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="app-calendar.html"
                                    class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          calendar_month
-                          </span>
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-list-check"></i>
                       </span>
-                                    <span class="sidebar-text">Calendar</span>
+                                    <span class="sidebar-text">Категории</span>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="app-calendar.html"
+                                   class="nav-link d-flex align-items-center text-truncate ">
+                      <span class="sidebar-icon">
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-patch-plus-fill"></i>
+                      </span>
+                                    <span class="sidebar-text">Продукти</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="app-calendar.html"
+                                   class="nav-link d-flex align-items-center text-truncate ">
+                      <span class="sidebar-icon">
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-patch-plus"></i>
+                      </span>
+                                    <span class="sidebar-text">Статички Страни</span>
+                                </a>
+                            </li>
+
                             <li class="nav-item mt-2 sidebar-title text-truncate small opacity-50">
                                 <i class="bi bi-three-dots"></i>
-                                <span>Features</span>
+                                <span>Општи Уредувања</span>
                             </li>
                             <li class="nav-item">
-                                <a href="#layouts" data-bs-toggle="collapse" aria-expanded="false"
+
+
+                      </span>
+
+
+
+                            <li class="nav-item">
+                                <a href="app-calendar.html"
                                    class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          space_dashboard
-                          </span>
+                       <i class="fs-2 text-primary d-block mb-2 bi bi-postcard-heart"></i>
                       </span>
-                                    <!--Sidebar nav text-->
-                                    <span class="sidebar-text">Layouts</span>
+                                    <span class="sidebar-text">Услуги</span>
                                 </a>
-                                <ul id="layouts" class="sidebar-dropdown list-unstyled collapse @@layout_collapse_show">
-                                    <li class="sidebar-item"><a class="sidebar-link @@layout_compact" href="layout-compact.html">Compact</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link" href="layout-horizontal.html">Horizontal</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@layout_boxed" href="layout-boxed.html">Boxed</a></li>
-                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a href="#ui-components" data-bs-toggle="collapse" aria-expanded="false"
-                                   class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          construction
-                          </span>
-                      </span>
-                                    <!--Sidebar nav text-->
-                                    <span class="sidebar-text">UI Components</span>
+
                                 </a>
                                 <ul id="ui-components" class="sidebar-dropdown list-unstyled collapse @@components_collapse">
 
@@ -310,91 +270,26 @@
                                 <a href="charts.html"
                                    class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          auto_graph
-                          </span>
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-shield-fill-check"></i>
                       </span>
-                                    <span class="sidebar-text">Charts</span>
+                                    <span class="sidebar-text">Референти</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="maps.html"
                                    class="nav-link d-flex align-items-center text-truncate ">
                       <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          map
-                          </span>
+                        <i class="fs-2 text-primary d-block mb-2 bi bi-code-slash"></i>
                       </span>
-                                    <span class="sidebar-text">Maps</span>
+                                    <span class="sidebar-text">Скрипти</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="datatables.html"
-                                   class="nav-link d-flex align-items-center text-truncate active">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          database
-                          </span>
-                      </span>
-                                    <span class="sidebar-text">Datatables</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#component-forms" data-bs-toggle="collapse" aria-expanded="false"
-                                   class="nav-link d-flex align-items-center text-truncate ">
-                      <span class="sidebar-icon">
-                        <span class="material-symbols-rounded">
-                          edit_note
-                          </span>
-                      </span>
-                                    <!--Sidebar nav text-->
-                                    <span class="sidebar-text">Forms</span>
-                                </a>
-                                <ul id="component-forms" class="sidebar-dropdown list-unstyled collapse @@form_collapse_show">
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_bootstrap" href="ui-form-bootstrap.html">
-                                            Bootstrap</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_quill_editor" href="ui-form-editor.html">
-                                            Editor</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_stepper" href="ui-form-stepper.html">
-                                            Stepper</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_upload" href="ui-form-upload.html">
-                                            Upload</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_daterangepicker" href="ui-form-daterange-picker.html">
-                                            Daterangepicker</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_validation" href="ui-form-validation.html">
-                                            Validation</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_choices" href="ui-form-choices.html">
-                                            Choices</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@form_input_mask" href="ui-form-inputmask.html">
-                                            Inputmask</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link d-flex align-items-center" href="#multi-level" data-bs-toggle="collapse" aria-expanded="false">
-                                    <div class="d-flex align-items-center">
-                        <span class="sidebar-icon">
-                          <span class="material-symbols-rounded">
-                            layers
-                            </span>
-                        </span>
-                                        <span class="sidebar-text">Multi level</span>
-                                    </div>
-                                </a>
-                                <ul id="multi-level" class="collapse sidebar-dropdown list-unstyled mb-0">
-                                    <li class="sidebar-item">
-                                        <a href="#level-2" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link">Level
-                                            Two</a>
-                                        <ul id="level-2" class="collapse sidebar-dropdown list-unstyled mb-0">
 
-                                            <li class="sidebar-item">
-                                                <a href="#level-3" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link">Level
-                                                    two item 2</a>
-                                                <ul id="level-3" class="collapse sidebar-dropdown list-unstyled mb-0">
-                                                    <li class="sidebar-item">
-                                                        <a href="#!" class="sidebar-link">Level three item 1</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
+
+                                    <!--Sidebar nav text-->
+
+
+
                                         </ul>
                                     </li>
                                 </ul>
@@ -619,7 +514,7 @@
                                 <div class="avatar-status status-online me-sm-2 avatar xs">
                                     <img src="/assets/media/avatars/01.jpg" class="rounded-circle img-fluid" alt="">
                                 </div>
-                                <span class="d-none d-md-inline-block">Noah</span>
+                                <span class="d-none d-md-inline-block">Gligor Biljarski</span>
                             </div>
                         </a>
 
@@ -779,7 +674,7 @@
                 <span class="d-block lh-sm small text-muted text-end">&copy;
                   <script>
                     document.write(new Date().getFullYear())
-                  </script>. Copyright
+                  </script>. PINGDEVS
                 </span>
                 </div>
             </footer>

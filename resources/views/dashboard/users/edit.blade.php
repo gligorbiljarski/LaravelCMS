@@ -23,6 +23,16 @@
                 <input type="password" class="form-control" id="password" name="password" value="{{ $user->password }}">
             </div>
 
+            <div class="form-group">
+                <label for="role">Roles</label>
+
+                <select id="role" name="role_id" class="form-control">
+                    @foreach($roles as $role)
+                        <option value="{{ $role->id }}" @if($role->id === $user->role_id) selected @endif>{{ $role->name }}</option>
+                    @endforeach
+                </select>
+
+            </div>
 
 
             <button type="submit" class="btn btn-primary mt-xl-4">Submit</button>

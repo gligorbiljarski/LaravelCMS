@@ -107,9 +107,10 @@ class UserController extends Controller
     public function edit($id)
     {
         $user = User::FindOrFail($id);
-        ;
+        $roles = Role::all();
 
-        $data = ['user' => $user,];
+
+        $data = ['user' => $user, 'roles' => $roles];
 
         return view('dashboard.users.edit')->with($data);
     }
