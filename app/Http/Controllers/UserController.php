@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Validator;
@@ -93,7 +96,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $user = User::FindOrFail($id);
+        $user = User::findOrFail($id);
         $data = ['user' => $user];
         return view('dashboard.users.show')->with($data);
     }
@@ -102,11 +105,11 @@ class UserController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function edit($id)
     {
-        $user = User::FindOrFail($id);
+        $user = User::findOrFail($id);
         $roles = Role::all();
 
 
@@ -120,27 +123,21 @@ class UserController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function update(Request $request, $id)
     {
-        $user = User::FindOrFail($id);
+        $user = User::findOrFail($id);
 
         $user->fill($request->all())->save();
 
         return redirect()->route('users.index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        $user = User::FindOrFail($id);
+        $user = User::findOrFail($id);
         $user->delete();
-        return redirect()->route('users.index');
+        return redirect()->back();
     }
 }

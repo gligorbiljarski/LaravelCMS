@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assan-Admin</title>
+    <title>Admin Dashboard</title>
 
     <!--Bootstrap icons-->
     <link href="/assets/fonts/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -13,8 +13,11 @@
     <!--Google web fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=IBM+Plex+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=IBM+Plex+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
 
     <!--Simplebar css-->
     <link rel="stylesheet" href="/assets/vendor/css/simplebar.min.css">
@@ -33,7 +36,18 @@
     <div
         class="content flex-column p-4 pb-0 d-flex justify-content-center align-items-center flex-column-fluid position-relative">
         <div class="w-100 h-100 position-relative d-flex align-items-center justify-content-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader spinner-grow  me-2"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-loader spinner-grow  me-2">
+                <line x1="12" y1="2" x2="12" y2="6"/>
+                <line x1="12" y1="18" x2="12" y2="22"/>
+                <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/>
+                <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/>
+                <line x1="2" y1="12" x2="6" y2="12"/>
+                <line x1="18" y1="12" x2="22" y2="12"/>
+                <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/>
+                <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
+            </svg>
             <div>
                 <span>Loading...</span>
             </div>
@@ -52,15 +66,17 @@
             <div class="h-100 flex-column d-flex justify-content-start">
 
                 <!--Aside-logo-->
-                <div class="aside-logo d-flex align-items-center flex-shrink-0 justify-content-start px-5 position-relative">
+                <div
+                    class="aside-logo d-flex align-items-center flex-shrink-0 justify-content-start px-5 position-relative">
                     <a href="index.html" class="d-block">
                         <div class="d-flex align-items-center flex-no-wrap text-truncate">
                             <!--Sidebar-icon-->
-                            <span class="sidebar-icon size-40 d-flex align-items-center justify-content-center fs-4 lh-1 text-white rounded-3 bg-gradient-primary fw-bolder"> A </span>
+                            <span
+                                class="sidebar-icon size-40 d-flex align-items-center justify-content-center fs-4 lh-1 text-white rounded-3 bg-gradient-primary fw-bolder"> G </span>
                             <span class="sidebar-text">
                     <!--Sidebar-text-->
                     <span class="sidebar-text text-truncate fs-3 fw-bold">
-                      Assan
+                      Gish
                     </span>
                   </span>
                         </div>
@@ -85,7 +101,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="index-analytics.html" class="nav-link d-flex align-items-center text-truncate ">
+                                <a href="index-analytics.html"
+                                   class="nav-link d-flex align-items-center text-truncate ">
                                     <i class="fs-2 text-primary d-block mb-2 bi bi-person-fill"></i>
 
                                     <!--Sidebar nav text-->
@@ -94,85 +111,102 @@
                             </li>
 
 
+                            <!--Sidebar nav text-->
 
-                                    <!--Sidebar nav text-->
-
-                                </a>
-                                <ul id="ui-pages" class="sidebar-dropdown list-unstyled collapse datatabless_collapse">
-                                    <li class="sidebar-item">
-                                        <a href="#pages-account" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link @@account_active">
-                                            Account
-                                        </a>
-                                        <ul id="pages-account" class="sidebar-dropdown list-unstyled collapse sd-second-level @@account_collapse">
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="account-general.html">General</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="account-billing.html">Billing</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="account-contacts.html">Contacts</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="account-security.html">Security</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="account-notifications.html">Notification</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="#pages-profile" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link @@profile_active">
-                                            Profile
-                                        </a>
-                                        <ul id="pages-profile" class="sidebar-dropdown list-unstyled collapse sd-second-level @@profile_collapse">
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link @@profile_overview" href="profile.html">Overview</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="#pages-authentication" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link">
-                                            Authentication
-                                        </a>
-                                        <ul id="pages-authentication" class="sidebar-dropdown list-unstyled collapse sd-second-level">
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" target="_blank" href="page-auth-signin.html">SignIn</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" target="_blank" href="page-auth-signup.html">SignUp</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" target="_blank" href="page-auth-recover-pass.html">Recover password</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" href="page-auth-success.html">Success</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link" target="_blank" href="page-auth-lockscreen.html">lockscreen</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_search" href="page-search.html">Search</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_invoice" href="page-invoice.html">Invoice</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_tasks" href="page-tasks.html">Tasks</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_pricing" href="page-pricing.html">Pricing</a></li>
-                                    <li class="sidebar-item">
-                                        <a href="#pages-projects" data-bs-toggle="collapse" aria-expanded="false" class="sidebar-link @@projects_active">
-                                            Projects
-                                        </a>
-                                        <ul id="pages-projects" class="sidebar-dropdown list-unstyled @@projects_collapse_show collapse sd-second-level">
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link @@projects" href="projects-list.html">List</a>
-                                            </li>
-                                            <li class="sidebar-item">
-                                                <a class="sidebar-link @@project_detail" href="project-detail.html">Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_404" href="page-404.html">404 Error</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link datatables_blank" href="page-blank.html">Blank Page</a></li>
-                                </ul>
+                            </a>
+                            <ul id="ui-pages" class="sidebar-dropdown list-unstyled collapse datatabless_collapse">
+                                <li class="sidebar-item">
+                                    <a href="#pages-account" data-bs-toggle="collapse" aria-expanded="false"
+                                       class="sidebar-link @@account_active">
+                                        Account
+                                    </a>
+                                    <ul id="pages-account"
+                                        class="sidebar-dropdown list-unstyled collapse sd-second-level @@account_collapse">
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="account-general.html">General</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="account-billing.html">Billing</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="account-contacts.html">Contacts</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="account-security.html">Security</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="account-notifications.html">Notification</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#pages-profile" data-bs-toggle="collapse" aria-expanded="false"
+                                       class="sidebar-link @@profile_active">
+                                        Profile
+                                    </a>
+                                    <ul id="pages-profile"
+                                        class="sidebar-dropdown list-unstyled collapse sd-second-level @@profile_collapse">
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link @@profile_overview" href="profile.html">Overview</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#pages-authentication" data-bs-toggle="collapse" aria-expanded="false"
+                                       class="sidebar-link">
+                                        Authentication
+                                    </a>
+                                    <ul id="pages-authentication"
+                                        class="sidebar-dropdown list-unstyled collapse sd-second-level">
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" target="_blank"
+                                               href="page-auth-signin.html">SignIn</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" target="_blank"
+                                               href="page-auth-signup.html">SignUp</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" target="_blank" href="page-auth-recover-pass.html">Recover
+                                                password</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" href="page-auth-success.html">Success</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link" target="_blank" href="page-auth-lockscreen.html">lockscreen</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_search"
+                                                            href="page-search.html">Search</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_invoice"
+                                                            href="page-invoice.html">Invoice</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_tasks"
+                                                            href="page-tasks.html">Tasks</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_pricing"
+                                                            href="page-pricing.html">Pricing</a></li>
+                                <li class="sidebar-item">
+                                    <a href="#pages-projects" data-bs-toggle="collapse" aria-expanded="false"
+                                       class="sidebar-link @@projects_active">
+                                        Projects
+                                    </a>
+                                    <ul id="pages-projects"
+                                        class="sidebar-dropdown list-unstyled @@projects_collapse_show collapse sd-second-level">
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link @@projects" href="projects-list.html">List</a>
+                                        </li>
+                                        <li class="sidebar-item">
+                                            <a class="sidebar-link @@project_detail"
+                                               href="project-detail.html">Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_404" href="page-404.html">404
+                                        Error</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link datatables_blank"
+                                                            href="page-blank.html">Blank Page</a></li>
+                            </ul>
                             </li>
 
 
@@ -225,8 +259,7 @@
                             <li class="nav-item">
 
 
-                      </span>
-
+                                </span>
 
 
                             <li class="nav-item">
@@ -239,32 +272,57 @@
                                 </a>
                             </li>
 
-                                </a>
-                                <ul id="ui-components" class="sidebar-dropdown list-unstyled collapse @@components_collapse">
+                            </a>
+                            <ul id="ui-components"
+                                class="sidebar-dropdown list-unstyled collapse @@components_collapse">
 
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_avatars_active" href="ui-component-avatars.html">Avatars</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_accordion_active" href="ui-component-accordion.html">Accordion</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_alerts_active" href="ui-component-alerts.html">Alerts</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_badges_active" href="ui-component-badges.html">Badges</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_buttons_active" href="ui-component-buttons.html">Buttons</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_cards_active" href="ui-component-cards.html">Cards</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_carousel_active" href="ui-component-carousel.html">Carousel</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_collapse_active" href="ui-component-collapse.html">Collapse</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_dropdown_active" href="ui-component-dropdown.html">Dropdown</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_modals_active" href="ui-component-modals.html">Modals</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_offcanvas_active" href="ui-component-offcanvas.html">Offcanvas <span class="badge bg-success ms-2">New</span></a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_icons_material_active" href="ui-component-icons-material-symbols.html">Material Sysmbols</a>
-                                    </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_icons_bootstrap_active" href="ui-component-icons-bootstrap.html">Bootstrap
-                                            Icons <span class="badge bg-gray ms-2">1.9.1</span></a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_progress_active" href="ui-component-progress.html">Progress</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_spinners_active" href="ui-component-spinners.html">Spinners</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_swiper_active" href="ui-component-swiper-slider.html">Swiper Slider</a> </li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_typo_active" href="ui-component-typography.html">Typography</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_toast_active" href="ui-component-toast.html">Toast</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_bs_tables_active" href="ui-component-tables.html">Tables</a></li>
-                                    <li class="sidebar-item"><a class="sidebar-link @@component_tippy_active" href="ui-component-tippy-js.html">Tippy <span class="badge bg-success ms-2">New</span></a></li>
-                                </ul>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_avatars_active"
+                                                            href="ui-component-avatars.html">Avatars</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_accordion_active"
+                                                            href="ui-component-accordion.html">Accordion</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_alerts_active"
+                                                            href="ui-component-alerts.html">Alerts</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_badges_active"
+                                                            href="ui-component-badges.html">Badges</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_buttons_active"
+                                                            href="ui-component-buttons.html">Buttons</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_cards_active"
+                                                            href="ui-component-cards.html">Cards</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_carousel_active"
+                                                            href="ui-component-carousel.html">Carousel</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_collapse_active"
+                                                            href="ui-component-collapse.html">Collapse</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_dropdown_active"
+                                                            href="ui-component-dropdown.html">Dropdown</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_modals_active"
+                                                            href="ui-component-modals.html">Modals</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_offcanvas_active"
+                                                            href="ui-component-offcanvas.html">Offcanvas <span
+                                            class="badge bg-success ms-2">New</span></a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_icons_material_active"
+                                                            href="ui-component-icons-material-symbols.html">Material
+                                        Sysmbols</a>
+                                </li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_icons_bootstrap_active"
+                                                            href="ui-component-icons-bootstrap.html">Bootstrap
+                                        Icons <span class="badge bg-gray ms-2">1.9.1</span></a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_progress_active"
+                                                            href="ui-component-progress.html">Progress</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_spinners_active"
+                                                            href="ui-component-spinners.html">Spinners</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_swiper_active"
+                                                            href="ui-component-swiper-slider.html">Swiper Slider</a>
+                                </li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_typo_active"
+                                                            href="ui-component-typography.html">Typography</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_toast_active"
+                                                            href="ui-component-toast.html">Toast</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_bs_tables_active"
+                                                            href="ui-component-tables.html">Tables</a></li>
+                                <li class="sidebar-item"><a class="sidebar-link @@component_tippy_active"
+                                                            href="ui-component-tippy-js.html">Tippy <span
+                                            class="badge bg-success ms-2">New</span></a></li>
+                            </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="charts.html"
@@ -286,27 +344,36 @@
                             </li>
 
 
-                                    <!--Sidebar nav text-->
+                            <!--Sidebar nav text-->
 
 
-
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+                        </li>
                         </ul>
                     </nav>
                     <!--aside-info-box-->
-                    <div class="my-3 p-3 aside-info bg-gradient-primary shadow-lg text-white rounded-4 position-relative overflow-hidden">
-                        <svg style="transform: rotate(-180deg);" preserveAspectRatio="none" class="position-absolute text-white start-0 bottom-0 w-100" fill="currentColor" height="35%" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z" opacity=".1"></path>
-                            <path d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z" opacity=".25"></path>
-                            <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" opacity=".25"></path>
+                    <div
+                        class="my-3 p-3 aside-info bg-gradient-primary shadow-lg text-white rounded-4 position-relative overflow-hidden">
+                        <svg style="transform: rotate(-180deg);" preserveAspectRatio="none"
+                             class="position-absolute text-white start-0 bottom-0 w-100" fill="currentColor"
+                             height="35%" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+                                opacity=".1"></path>
+                            <path
+                                d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+                                opacity=".25"></path>
+                            <path
+                                d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"
+                                opacity=".25"></path>
                         </svg>
                         <div class="position-relative">
                             <p class="mb-0 pb-2">Release your maximal potencial software</p>
                             <!--Action button-->
-                            <a href="#!.html" class="btn rounded-pill btn-white shadow-sm text-truncate px-3 btn-sm">Upgrade Pro</a>
+                            <a href="#!.html" class="btn rounded-pill btn-white shadow-sm text-truncate px-3 btn-sm">Upgrade
+                                Pro</a>
                         </div>
                     </div>
                 </div>
@@ -326,7 +393,8 @@
         <main class="page-content d-flex flex-column flex-row-fluid">
 
             <!--//page-header//-->
-            <header class="navbar mb-3 px-3 px-lg-6 px-3 px-lg-6 align-items-center page-header navbar-expand navbar-light">
+            <header
+                class="navbar mb-3 px-3 px-lg-6 px-3 px-lg-6 align-items-center page-header navbar-expand navbar-light">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
                     <div class="d-flex align-items-center flex-no-wrap text-truncate">
                         <!--Sidebar-icon-->
@@ -336,7 +404,8 @@
                     </div>
                 </a>
                 <ul class="navbar-nav d-flex align-items-center h-100">
-                    <li class="nav-item d-none d-lg-flex flex-column h-100 me-2 align-items-center justify-content-center" data-tippy-placement="bottom-start" data-tippy-content="Toggle Sidebar">
+                    <li class="nav-item d-none d-lg-flex flex-column h-100 me-2 align-items-center justify-content-center"
+                        data-tippy-placement="bottom-start" data-tippy-content="Toggle Sidebar">
                         <a href="javascript:void(0)"
                            class="sidebar-trigger nav-link size-40 d-flex align-items-center justify-content-center p-0">
                   <span class="material-symbols-rounded">
@@ -344,20 +413,17 @@
                     </span>
                         </a>
                     </li>
-                    <li class="nav-item d-flex flex-column me-2 h-100 justify-content-center dropdown" data-tippy-placement="bottom-start" data-tippy-content="Search in the App">
+                    <li class="nav-item d-flex flex-column me-2 h-100 justify-content-center dropdown"
+                        data-tippy-placement="bottom-start" data-tippy-content="Search in the App">
                         <a href="javascript:void;" data-bs-target="#modal_search" data-bs-toggle="modal"
                            class="d-flex align-items-center justify-content-center nav-link size-40 p-0">
-                  <span class="material-symbols-rounded">
-                    search
-                    </span>
+
                         </a>
                     </li>
                     <li class="nav-item d-none d-md-flex flex-md-column me-2 h-100 justify-content-md-center dropdown">
                         <a href="#" data-bs-toggle="dropdown"
                            class="nav-link size-40 d-flex align-items-center justify-content-center p-0">
-                  <span class="material-symbols-rounded">
-                    apps
-                    </span>
+
                         </a>
                         <div class="dropdown-menu overflow-hidden dropdown-menu-sm p-0 mt-0">
                             <!--Apps list-->
@@ -365,14 +431,17 @@
 
                                 <div class="list-group-item d-flex align-items-center justify-content-between px-3">
                                     <h6 class="dropdown-header ps-0">Apps Shortcuts</h6>
-                                    <a href="#!" class="btn btn-primary">View All Apps <span class="ms-1 fs-5 align-middle material-symbols-rounded">
+                                    <a href="#!" class="btn btn-primary">View All Apps <span
+                                            class="ms-1 fs-5 align-middle material-symbols-rounded">
                         arrow_forward
                         </span></a>
                                 </div>
                                 <!--App item-->
-                                <a href="#!" class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
+                                <a href="#!"
+                                   class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
                                     <!--App logo-->
-                                    <img src="/assets/media/brand-logos/atlassian.svg" class="width-30 w-auto flex-shrink-0 me-4" alt="">
+                                    <img src="/assets/media/brand-logos/atlassian.svg"
+                                         class="width-30 w-auto flex-shrink-0 me-4" alt="">
                                     <div class="flex-grow-1">
                                         <h6 class="mb-0">Atlassian</h6>
                                         <small>Security and control across Cloud</small>
@@ -380,9 +449,11 @@
                                 </a>
 
                                 <!--App item-->
-                                <a href="#!" class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
+                                <a href="#!"
+                                   class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
                                     <!--App logo-->
-                                    <img src="/assets/media/brand-logos/google-webdev.svg" class="width-30 w-auto flex-shrink-0 me-4" alt="">
+                                    <img src="/assets/media/brand-logos/google-webdev.svg"
+                                         class="width-30 w-auto flex-shrink-0 me-4" alt="">
                                     <div class="flex-grow-1">
                                         <h6 class="mb-0">Google webdev</h6>
                                         <small>Work involved in developing a website</small>
@@ -390,9 +461,11 @@
                                 </a>
 
                                 <!--App item-->
-                                <a href="#!" class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
+                                <a href="#!"
+                                   class="list-group-item px-4 py-3 list-group-item-action d-flex align-items-center">
                                     <!--App logo-->
-                                    <img src="/assets/media/brand-logos/slack.svg" class="width-30 w-auto flex-shrink-0 me-4" alt="">
+                                    <img src="/assets/media/brand-logos/slack.svg"
+                                         class="width-30 w-auto flex-shrink-0 me-4" alt="">
                                     <div class="flex-grow-1">
                                         <h6 class="mb-0">Slack</h6>
                                         <small>Email collaboration software</small>
@@ -405,20 +478,13 @@
                 <ul class="navbar-nav ms-auto d-flex align-items-center h-100">
                     <li class="nav-item d-flex align-items-center justify-content-center flex-column h-100 me-2">
 
-                        <label class="dark-mode-checkbox size-40 d-flex align-items-center justify-content-center nav-link p-0" for="ChangeTheme">
+                        <label
+                            class="dark-mode-checkbox size-40 d-flex align-items-center justify-content-center nav-link p-0"
+                            for="ChangeTheme">
                             <input type="checkbox" id="ChangeTheme"/> <span class="slide"></span>
                         </label>
                     </li>
                     <li class="nav-item dropdown d-flex align-items-center justify-content-center flex-column h-100 me-2">
-                        <a href="#"
-                           class="nav-link p-0 position-relative size-40 d-flex align-items-center justify-content-center"
-                           aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside">
-                  <span class="material-symbols-rounded">
-                    notifications
-                    </span>
-                            <span
-                                class="size-5 rounded-circle d-flex align-items-center justify-content-center position-absolute end-0 top-0 mt-2 me-1 bg-danger small"></span>
-                        </a>
 
 
                         <div class="dropdown-menu mt-0 p-0 overflow-hidden dropdown-menu-end dropdown-menu-sm">
@@ -433,10 +499,12 @@
                                 <div class="list-group list-group-flush mb-0">
 
                                     <!--//Notification item start//-->
-                                    <a href="#" class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
+                                    <a href="#"
+                                       class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
                                         <div class="d-block me-3">
                                             <div class="avatar avatar-status status-online">
-                                                <img src="/assets/media/avatars/01.jpg" class="img-fluid rounded-circle w-auto" alt="">
+                                                <img src="/assets/media/avatars/01.jpg"
+                                                     class="img-fluid rounded-circle w-auto" alt="">
                                             </div>
                                         </div>
 
@@ -448,10 +516,12 @@
                                         </div>
                                     </a>
                                     <!--//Notification item start//-->
-                                    <a href="#" class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
+                                    <a href="#"
+                                       class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
                                         <div class="d-block me-3">
                                             <div class="avatar avatar-status status-offline">
-                                                <img src="/assets/media/avatars/06.jpg" class="img-fluid rounded-circle w-auto" alt="">
+                                                <img src="/assets/media/avatars/06.jpg"
+                                                     class="img-fluid rounded-circle w-auto" alt="">
                                             </div>
                                         </div>
 
@@ -465,7 +535,8 @@
                                         </div>
                                     </a>
                                     <!--//Notification item start//-->
-                                    <a href="#" class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
+                                    <a href="#"
+                                       class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
                           <span class="d-block me-3">
                             <span
                                 class="d-flex align-items-center justify-content-center lh-1 size-50 bg-tint-success text-success rounded-circle">
@@ -483,7 +554,8 @@
                                         </div>
                                     </a>
                                     <!--//Notification item start//-->
-                                    <a href="#" class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
+                                    <a href="#"
+                                       class="list-group-item list-group-item-action py-3 px-4 d-flex align-items-center">
                           <span class="d-block me-3">
                             <span
                                 class="d-flex align-items-center justify-content-center lh-1 size-50 bg-tint-danger text-danger rounded-circle">
@@ -520,19 +592,21 @@
 
                         <div class="dropdown-menu mt-0 p-0 dropdown-menu-end overflow-hidden">
                             <!--User meta-->
-                            <div class="position-relative overflow-hidden px-3 pt-4 pb-7 bg-gradient-primary text-white">
+                            <div
+                                class="position-relative overflow-hidden px-3 pt-4 pb-7 bg-gradient-primary text-white">
                                 <!--Divider-->
                                 <svg style="transform: rotate(-180deg)" preserveAspectRatio="none"
-                                     class="position-absolute start-0 bottom-0 w-100 dropdown-wave" fill="currentColor" height="24" viewBox="0 0 1200 120"
+                                     class="position-absolute start-0 bottom-0 w-100 dropdown-wave" fill="currentColor"
+                                     height="24" viewBox="0 0 1200 120"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
-                                        opacity=".25" />
+                                        opacity=".25"/>
                                     <path
                                         d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
-                                        opacity=".5" />
+                                        opacity=".5"/>
                                     <path
-                                        d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
+                                        d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"/>
                                 </svg>
                                 <div class="position-relative">
                                     <h5 class="mb-1">Noah Pierre</h5>
@@ -541,30 +615,44 @@
                             </div>
                             <div class="pt-2">
                                 <a href="profile.html" class="dropdown-item d-flex align-items-center">
-                      <span class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-primary text-white rounded-2">
+                      <span
+                          class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-primary text-white rounded-2">
                       account_circle
                       </span>
                                     <span class="flex-grow-1">Profile</span>
                                 </a>
                                 <a href="account-general.html" class="dropdown-item d-flex align-items-center">
-                      <span class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-danger text-white rounded-2">
+                      <span
+                          class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-danger text-white rounded-2">
                       settings
                       </span>
                                     <span class="flex-grow-1">Settings</span>
                                 </a>
                                 <a href="page-tasks.html" class="dropdown-item d-flex align-items-center">
-                      <span class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-info text-white rounded-2">
+                      <span
+                          class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-info text-white rounded-2">
                       task
                       </span>
                                     <span class="flex-grow-1">Tasks</span>
                                 </a>
                                 <hr class="my-2">
-                                <a href="page-auth-signin.html" class="dropdown-item d-flex align-items-center">
-                      <span class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-warning text-white rounded-2">
-                      logout
-                      </span>
-                                    <span class="flex-grow-1">Logout</span>
-                                </a>
+
+                                @auth()
+                                    <div class="dropdown-item d-flex align-items-center">
+                                        <form method="post" action="{{ route('logout', auth()->user()) }}">
+                                            @method('POST')
+                                            @csrf
+
+                                            <div class="d-flex">
+                                                <button
+                                                    class="material-symbols-rounded align-middle me-2 size-30 fs-5 d-flex align-items-center justify-content-center bg-warning text-white rounded-2">
+                                                    logout
+                                                </button>
+                                                <span class="flex-grow-1">Logout</span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                @endauth
                             </div>
                         </div>
                     </li>
@@ -578,7 +666,6 @@
                 </ul>
             </header>
             <!--Main Header End-->
-
 
 
             <!--Main Search Modal-->
@@ -598,7 +685,8 @@
                     search
                     </span>
                                         </div>
-                                        <input type="text" autofocus class="form-control form-control-lg border-2 border-primary border ps-6"
+                                        <input type="text" autofocus
+                                               class="form-control form-control-lg border-2 border-primary border ps-6"
                                                placeholder="Search App...">
                                     </div>
                                 </form>
@@ -615,13 +703,15 @@
                                 </div>
                                 <div class="list-group">
                                     <!--Recently searched item-->
-                                    <a href="#" class="list-group-item px-3 d-flex overflow-hidden align-items-center list-group-item-action">
+                                    <a href="#"
+                                       class="list-group-item px-3 d-flex overflow-hidden align-items-center list-group-item-action">
                                         <div class="flex-grow-1 overflow-hidden">
                                             <span class="text-truncate">Campaign reports</span>
                                         </div>
                                     </a>
                                     <!--Recently searched item-->
-                                    <a href="#" class="list-group-item px-3 d-flex overflow-hidden align-items-center list-group-item-action">
+                                    <a href="#"
+                                       class="list-group-item px-3 d-flex overflow-hidden align-items-center list-group-item-action">
                                         <div class="flex-grow-1 overflow-hidden">
                                             <span class="text-truncate">Funnel reports</span>
                                         </div>
@@ -643,21 +733,16 @@
                 <div class="position-relative container-fluid px-0">
                     <div class="row align-items-center position-relative">
                         <div class="col-md-8 mb-4 mb-md-0">
-                            <h3 class="mb-2">Datatables</h3>
+
 
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item active">Datatables</li>
+
                                 </ol>
                             </nav>
                         </div>
                         <div class="col-md-4 text-md-end">
-                            <a href="https://datatables.net/" target="_blank" class="text-body">More Examples
-                                <span class="material-symbols-rounded align-middle ms-1 fs-5">
-                        open_in_new
-                        </span>
-                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -694,11 +779,11 @@
 <script src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.12.0/js/dataTables.bootstrap5.min.js"></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         // Datatables Responsive
         $("#datatable").DataTable({
-            "filter":false,
-            "length":false
+            "filter": false,
+            "length": false
         });
     });
 </script>
