@@ -20,7 +20,7 @@
                                 <th>Id</th>
                                 <th>Корисник</th>
                                 <th>Улога</th>
-                                <th class="text-end">Action</th>
+                                <th class="text-end">Акција</th>
                             </tr>
                             </thead>
                             <tbody>

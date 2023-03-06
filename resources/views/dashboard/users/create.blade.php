@@ -8,7 +8,7 @@
                     @csrf
 
                     <div class="form-roup mt-2">
-                        <label for="name">Name</label>
+                        <label for="name">Title</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" aria-describedby="YourName" name="name">
                     </div>
                     @error('name')
